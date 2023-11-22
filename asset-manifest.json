@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/permanent-makeup-studio/static/css/main.e2d0be03.css",
+    "main.js": "/permanent-makeup-studio/static/js/main.a01d3180.js",
+    "static/media/Inna.png": "/permanent-makeup-studio/static/media/Inna.92eb15c7273522658f18.png",
+    "index.html": "/permanent-makeup-studio/index.html",
+    "main.e2d0be03.css.map": "/permanent-makeup-studio/static/css/main.e2d0be03.css.map",
+    "main.a01d3180.js.map": "/permanent-makeup-studio/static/js/main.a01d3180.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2d0be03.css",
+    "static/js/main.a01d3180.js"
+  ]
+}
