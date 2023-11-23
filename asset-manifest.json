@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/permanent-makeup-studio/static/css/main.e2d0be03.css",
-    "main.js": "/permanent-makeup-studio/static/js/main.a01d3180.js",
+    "main.css": "/permanent-makeup-studio/static/css/main.75f90441.css",
+    "main.js": "/permanent-makeup-studio/static/js/main.968c3e15.js",
     "static/media/Inna.png": "/permanent-makeup-studio/static/media/Inna.92eb15c7273522658f18.png",
+    "static/media/Inna_pink.png": "/permanent-makeup-studio/static/media/Inna_pink.da08b931343946818f37.png",
     "index.html": "/permanent-makeup-studio/index.html",
-    "main.e2d0be03.css.map": "/permanent-makeup-studio/static/css/main.e2d0be03.css.map",
-    "main.a01d3180.js.map": "/permanent-makeup-studio/static/js/main.a01d3180.js.map"
+    "main.75f90441.css.map": "/permanent-makeup-studio/static/css/main.75f90441.css.map",
+    "main.968c3e15.js.map": "/permanent-makeup-studio/static/js/main.968c3e15.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2d0be03.css",
-    "static/js/main.a01d3180.js"
+    "static/css/main.75f90441.css",
+    "static/js/main.968c3e15.js"
   ]
 }
