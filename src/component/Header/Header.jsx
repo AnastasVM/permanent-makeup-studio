@@ -7,8 +7,8 @@ const Header = () => {
 			<div className='container'>
 				<div className={s.wrapper}>
 					<div className={s.inner}>
-						<h3 className={s.title}>Название компании</h3>
-						<h5 className={s.subtitle}>Салон красоты</h5>
+						<h3 className={s.title}>Инна Якушенко</h3>
+						<h5 className={s.subtitle}>Перманент Make Up</h5>
 					</div>
 					<div className={s.nav}>
 						<div className={s.info}>

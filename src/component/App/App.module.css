@@ -5,7 +5,13 @@
 .wrapper {
 	display: flex;
 	padding: 0 2rem;
-	background-color: #69615b;
+	background-color: #3e3936;
+
+	background-image: url('./images/Inna_pink.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	/* background-size: cover; */
+	font-size: contain;
 }
 
 .intro {
