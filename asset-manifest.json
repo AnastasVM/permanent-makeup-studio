@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/permanent-makeup-studio/static/css/main.75f90441.css",
-    "main.js": "/permanent-makeup-studio/static/js/main.968c3e15.js",
+    "main.css": "/permanent-makeup-studio/static/css/main.3a51dc40.css",
+    "main.js": "/permanent-makeup-studio/static/js/main.8a25bcf3.js",
+    "static/media/ГубыРабота.jpeg": "/permanent-makeup-studio/static/media/ГубыРабота.7b97d829ed82b458d220.jpeg",
+    "static/media/IMG_5315.jpeg": "/permanent-makeup-studio/static/media/IMG_5315.ff424c7ae35556bab9bf.jpeg",
+    "static/media/eyelids.jpeg": "/permanent-makeup-studio/static/media/eyelids.25f88ee462303320d738.jpeg",
+    "static/media/brows.jpeg": "/permanent-makeup-studio/static/media/brows.78f4abc833c4f2e9fd99.jpeg",
+    "static/media/lips.jpeg": "/permanent-makeup-studio/static/media/lips.1397cfbc579b0e5b68c2.jpeg",
     "static/media/Inna.png": "/permanent-makeup-studio/static/media/Inna.92eb15c7273522658f18.png",
     "static/media/Inna_pink.png": "/permanent-makeup-studio/static/media/Inna_pink.da08b931343946818f37.png",
+    "static/media/фон.jpg": "/permanent-makeup-studio/static/media/фон.6bbcdb3034aac8089284.jpg",
     "index.html": "/permanent-makeup-studio/index.html",
-    "main.75f90441.css.map": "/permanent-makeup-studio/static/css/main.75f90441.css.map",
-    "main.968c3e15.js.map": "/permanent-makeup-studio/static/js/main.968c3e15.js.map"
+    "main.3a51dc40.css.map": "/permanent-makeup-studio/static/css/main.3a51dc40.css.map",
+    "main.8a25bcf3.js.map": "/permanent-makeup-studio/static/js/main.8a25bcf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.75f90441.css",
-    "static/js/main.968c3e15.js"
+    "static/css/main.3a51dc40.css",
+    "static/js/main.8a25bcf3.js"
   ]
 }
