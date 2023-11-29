@@ -4,6 +4,7 @@ import './SimpleSlider.css'
 
 import Inna1 from './images/Inna.png'
 import Inna from './images/Inna_pink.png'
+import lipsWork from './images/ГубыРабота.jpeg'
 
 const SimpleSlider = () => {
 	const settings = {
@@ -29,18 +30,10 @@ const SimpleSlider = () => {
 					</h3>
 					<img src={Inna} alt='' className='slider__img' />
 				</div>
-				{/* <div>
-						<h3>3</h3>
-					</div>
-					<div>
-						<h3>4</h3>
-					</div>
-					<div>
-						<h3>5</h3>
-					</div>
-					<div>
-						<h3>6</h3>
-					</div> */}
+				<div className='slider__item'>
+					<h3 className='slider__title'>Перманентный Make Up</h3>
+					<img src={lipsWork} alt='' className='slider__img' />
+				</div>
 			</Slider>
 		</div>
 	)
