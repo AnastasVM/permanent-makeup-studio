@@ -1,0 +1,56 @@
+.contacts {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	font-family: fangsong;
+	margin: 30px 10px;
+}
+
+.title {
+	margin-bottom: 30px;
+	font-size: 3vw;
+}
+
+.subtitle {
+	margin: 10px 0;
+	font-size: 1.3vw;
+	font-weight: 400;
+}
+
+.phone {
+	font-size: 1.5vw;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.text {
+	font-size: 1.5vw;
+	font-weight: 700;
+}
+
+.textLight {
+	font-weight: 400;
+	font-size: 1.3vw;
+}
+
+.wrapper {
+	margin: 30px 0;
+}
+
+.dgWidgetWLink {
+	margin: 10px;
+}
+
+.link {
+	font-family: fangsong;
+	text-decoration: none;
+	color: black;
+	font-size: 1vw;
+	/* z-index: 3; */
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

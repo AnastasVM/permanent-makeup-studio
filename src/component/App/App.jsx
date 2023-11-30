@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import s from './App.module.css'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
@@ -6,11 +6,15 @@ import Footer from '../Footer/Footer'
 // import Inna1 from './images/Inna_pink.png'
 import SimpleSlider from '../Slick/SimpleSlider'
 import Services from '../Services/Services'
+import Modal from '../Modal/Modal'
+import Contacts from '../Contacts/Contacts'
 
 function App() {
+	const [modalActive, setModalActive] = useState(false)
+
 	return (
 		<>
-			<Header />
+			<Header setActive={setModalActive} />
 			<main className={s.content}>
 				{/* <div className={s.wrapper}>
 					<div className={s.intro}>
@@ -28,6 +32,9 @@ function App() {
 				<SimpleSlider />
 				<Services />
 			</main>
+			<Modal active={modalActive} setActive={setModalActive}>
+				<Contacts />
+			</Modal>
 			<Footer />
 		</>
 	)

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import s from './Services.module.css'
-import lips from './images/lips.jpeg'
-import brows from './images/brows.jpeg'
-import eyelids from './images/eyelids.jpeg'
+import lips from './images/lips (2).jpeg'
+import brows from './images/brows (2).jpeg'
+import eyelids from './images/eyes.jpeg'
 import depilation from './images/IMG_5315.jpeg'
 import Card from '../Card/Card'
 
