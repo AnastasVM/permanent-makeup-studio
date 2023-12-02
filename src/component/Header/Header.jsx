@@ -3,7 +3,7 @@ import s from './Header.module.css'
 
 const Header = ({ setActive }) => {
 	return (
-		<div className={s.Header}>
+		<div className={s.header}>
 			<div className='container'>
 				<div className={s.wrapper}>
 					<div className={s.inner}>
@@ -12,7 +12,7 @@ const Header = ({ setActive }) => {
 					</div>
 					<div className={s.nav}>
 						<div className={s.info}>
-							<p className={s.time}>Звонить с 9:00 до 20:00</p>
+							<p className={s.time}>с 9:00 до 20:00</p>
 							<p className={s.phone}>+7 913 788 07 01</p>
 						</div>
 						<button className={s.btn} onClick={() => setActive(true)}>

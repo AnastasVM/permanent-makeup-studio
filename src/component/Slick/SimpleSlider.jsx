@@ -13,6 +13,9 @@ const SimpleSlider = () => {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		adaptiveHeight: true,
 	}
 	return (
 		<div className='wrapper'>
@@ -28,7 +31,12 @@ const SimpleSlider = () => {
 					<h3 className='slider__title'>
 						Скидка 10% на любую услугу <br /> при первом визите!
 					</h3>
-					<img src={Inna} alt='' className='slider__img' />
+					<img
+						// data-lazy={Inna}
+						src={Inna}
+						alt=''
+						className='slider__img'
+					/>
 				</div>
 				<div className='slider__item'>
 					<h3 className='slider__title'>Перманентный Make Up</h3>

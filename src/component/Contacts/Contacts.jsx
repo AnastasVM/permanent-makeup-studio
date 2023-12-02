@@ -22,7 +22,9 @@ const Contacts = () => {
 				</p>
 
 				<h5 className={s.subtitle}>Адрес студии</h5>
-				<p className={s.text}>г.Новосибирск, ул.Иванова, д.17</p>
+				<p className={s.text}>
+					г.Новосибирск, <br /> ул.Иванова, д.17
+				</p>
 			</div>
 			<div>
 				<div id='map' style={style}></div>

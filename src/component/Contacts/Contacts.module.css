@@ -10,29 +10,29 @@
 
 .title {
 	margin-bottom: 30px;
-	font-size: 3vw;
+	font-size: 42px;
 }
 
 .subtitle {
 	margin: 10px 0;
-	font-size: 1.3vw;
+	font-size: 28px;
 	font-weight: 400;
 }
 
 .phone {
-	font-size: 1.5vw;
+	font-size: 28px;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
 
 .text {
-	font-size: 1.5vw;
+	font-size: 28px;
 	font-weight: 700;
 }
 
 .textLight {
 	font-weight: 400;
-	font-size: 1.3vw;
+	font-size: 28px;
 }
 
 .wrapper {
@@ -52,5 +52,32 @@
 
 	&:hover {
 		text-decoration: underline;
+	}
+}
+
+@media (max-width: 1200px) {
+	.title {
+		font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1432 - 320)));
+		margin-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+	}
+
+	.subtitle {
+		font-size: calc(18px + (28 - 18) * ((100vw - 320px) / (1432 - 320)));
+	}
+
+	.text {
+		font-size: calc(18px + (28 - 18) * ((100vw - 320px) / (1432 - 320)));
+	}
+
+	.textLight {
+		font-size: calc(18px + (28 - 18) * ((100vw - 320px) / (1432 - 320)));
+	}
+
+	.wrapper {
+		margin-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+		margin-top: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+	}
+	.link {
+		font-size: calc(14px + (28 - 14) * ((100vw - 320px) / (1432 - 320)));
 	}
 }
