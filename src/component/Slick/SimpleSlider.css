@@ -29,7 +29,7 @@
 .slick-next {
 	right: 20px;
 	min-width: 0;
-	z-index: 50;
+	/* z-index: 50; */
 	&:hover {
 		box-shadow: none;
 	}
@@ -86,7 +86,7 @@
 	top: 0;
 	left: 8%;
 	object-fit: cover;
-	transition: transform 400ms ease-in-out;
+	/* transition: transform 400ms ease-in-out; */
 	/* &:hover {
 		transform: scale(1.5);
 	} */
