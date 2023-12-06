@@ -1,0 +1,29 @@
+.wrapper {
+	padding: calc(15px + (30 - 15) * ((100vw - 320px) / (1432 - 320)));
+}
+
+.link {
+	text-decoration: none;
+	color: #6a4d51;
+	font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+.separator {
+	display: inline;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1432 - 320)));
+	color: #6a4d51;
+}
+
+.title {
+	color: black;
+	font-family: fangsong;
+	font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (1432 - 320)));
+}

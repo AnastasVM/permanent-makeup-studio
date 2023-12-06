@@ -3,6 +3,7 @@ import s from './Header.module.css'
 import close from './images/close.svg'
 import burger from './images/icons8-меню.svg'
 import cn from 'classnames'
+import { Link } from 'react-router-dom'
 
 const Header = ({ setActive }) => {
 	const [isOpen, setOpen] = useState()
@@ -11,10 +12,12 @@ const Header = ({ setActive }) => {
 		<div className={s.header}>
 			<div className='container'>
 				<div className={s.wrapper}>
-					<div className={s.inner}>
-						<h3 className={s.title}>Инна Якушенко</h3>
-						<h5 className={s.subtitle}>Перманент Make Up</h5>
-					</div>
+					<Link to='/' className={s.link}>
+						<div className={s.inner}>
+							<h3 className={s.title}>Инна Якушенко</h3>
+							<h5 className={s.subtitle}>Перманент Make Up</h5>
+						</div>
+					</Link>
 					<div
 						className={cn(s.nav, {
 							[s.active]: isOpen,
@@ -31,7 +34,10 @@ const Header = ({ setActive }) => {
 						>
 							Контакты
 						</button>
-						<button className={s.btn}>Обо мне</button>
+
+						<Link to='/aboutMe' className={s.btn}>
+							Обо мне
+						</Link>
 					</div>
 					<button className={s.menuBtn} onClick={() => setOpen(!isOpen)}>
 						{isOpen ? (

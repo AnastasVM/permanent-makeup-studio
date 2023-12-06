@@ -1,19 +1,34 @@
 import React, { useState } from 'react'
 import s from './Services.module.css'
-import lips from './images/lips.jpeg'
+import lips from './images/lips 3.jpeg'
 import brows from './images/brows (2).jpeg'
 import eyelids from './images/eyes3.jpeg'
-import depilation from './images/depilation1.jpeg'
+import depilation from './images/IMG_8759.JPG'
 import Card from '../Card/Card'
 
 const Services = () => {
 	const [works, setWorks] = useState([
-		{ id: 1, image: lips, title: 'Перманентный макияж губ' },
-		{ id: 2, image: brows, title: 'Перманентный макияж бровей' },
-		{ id: 3, image: eyelids, title: 'Перманентный макияж век' },
-		{ id: 4, image: depilation, title: 'Депиляция' },
+		{
+			id: 1,
+			image: lips,
+			title: 'Перманентный макияж губ',
+			text: '5000 ₽',
+		},
+		{
+			id: 2,
+			image: brows,
+			title: 'Перманентный макияж бровей',
+			text: '5000 ₽',
+		},
+		{
+			id: 3,
+			image: eyelids,
+			title: 'Перманентный макияж век',
+			text: '4000 - 5000 ₽',
+		},
+		{ id: 4, image: depilation, title: 'Депиляция', text: '150 - 1000 ₽' },
 	])
-	console.log(works[0].id)
+
 	return (
 		<div className={s.services}>
 			<div className='container'>
@@ -22,7 +37,7 @@ const Services = () => {
 					{works.map(e => (
 						<div className={s.col} key={e.id}>
 							<div className={s.item}>
-								<Card id={e.id} image={e.image} title={e.title} />
+								<Card id={e.id} image={e.image} title={e.title} text={e.text} />
 							</div>
 						</div>
 					))}

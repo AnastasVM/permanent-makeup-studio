@@ -1,13 +1,18 @@
 .title {
 	margin: 30px;
+	text-align: center;
 	font-family: fangsong;
 	font-weight: 700;
-	font-size: 56px;
-	letter-spacing: 0.2vw;
+	font-size: calc(26px + (56 - 26) * ((100vw - 320px) / (1432 - 320)));
+	margin: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+	/* letter-spacing: 0.2vw; */
 }
 
 .services {
-	margin: 60px 30px;
+	margin-top: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
+	margin-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
+	margin-right: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+	margin-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 }
 
 .works {
@@ -18,11 +23,12 @@
 
 .col {
 	flex-basis: 50%;
-	padding: 15px;
+	/* padding: 15px; */
+	padding: calc(10px + (15 - 10) * ((100vw - 320px) / (1432 - 320)));
 
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 
 	@media (max-width: 767px) {
 		flex-basis: 100%;
@@ -40,18 +46,4 @@
 
 .item:hover {
 	box-shadow: 0 0 25px rgba(128, 128, 128, 0.3);
-}
-
-@media (max-width: 1200px) {
-	.services {
-		margin-top: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
-		margin-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
-		margin-right: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
-		margin-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
-	}
-	.title {
-		font-size: calc(26px + (56 - 26) * ((100vw - 320px) / (1432 - 320)));
-		margin: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
-		text-align: center;
-	}
 }

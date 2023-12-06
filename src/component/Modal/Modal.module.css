@@ -4,7 +4,7 @@
 	/* background-color: rgba(0, 0, 0, 0.5); */
 	/* background-color: rgb(35 27 27 / 95%); */
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('../App/images/фон.jpg');
+		url('../pages/HomePage/images/фон.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -20,6 +20,7 @@
 	pointer-events: none;
 	transition: 0.5s;
 	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 	padding: 1rem;
 }
 

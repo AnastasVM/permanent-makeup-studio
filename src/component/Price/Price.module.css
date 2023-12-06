@@ -1,0 +1,39 @@
+.price {
+	padding-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
+	padding-top: calc(10px + (20 - 10) * ((100vw - 320px) / (1432 - 320)));
+	padding-right: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+	padding-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+
+	background-color: #fce2e7bd;
+
+	/* filter: brightness(40%); */
+}
+
+.title {
+	font-family: fangsong;
+	font-size: calc(26px + (56 - 26) * ((100vw - 320px) / (1432 - 320)));
+	margin: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+	text-align: center;
+}
+
+ul {
+	margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1432 - 320)));
+	font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+	font-weight: 600;
+}
+
+.list li {
+	display: flex;
+	justify-content: space-between;
+
+	list-style-type: none;
+	font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1432 - 320)));
+	border-bottom: 1px solid #161515;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.liFirst {
+	margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1432 - 320)));
+}

@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import Slider from 'react-slick'
 import './SimpleSlider.css'
 
-import Inna1 from './images/Inna.png'
-import Inna from './images/Inna_pink.png'
-import lipsWork from './images/ГубыРабота.jpeg'
+import Inna1 from './images/IMG_8752.JPG'
+import Inna from './images/IMG_8534(1).JPG'
+import lipsWork from './images/IMG_8707.JPG'
 
 const SimpleSlider = () => {
 	const settings = {
@@ -33,14 +33,14 @@ const SimpleSlider = () => {
 					</h3>
 					<img
 						// data-lazy={Inna}
-						src={Inna}
+						src={lipsWork}
 						alt=''
 						className='slider__img'
 					/>
 				</div>
 				<div className='slider__item'>
 					<h3 className='slider__title'>Перманентный Make Up</h3>
-					<img src={lipsWork} alt='' className='slider__img' />
+					<img src={Inna} alt='' className='slider__img' />
 				</div>
 			</Slider>
 		</div>

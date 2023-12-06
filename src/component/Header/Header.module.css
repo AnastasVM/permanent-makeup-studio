@@ -9,6 +9,10 @@
 	justify-content: space-between;
 }
 
+.link {
+	text-decoration: none;
+}
+
 .inner {
 	font-size: 24px;
 }
@@ -79,7 +83,7 @@
 		padding: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 	}
 	.inner {
-		font-size: calc(10px + (24 - 10) * ((100vw - 320px) / (1432 - 320)));
+		font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1432 - 320)));
 	}
 	.time {
 		font-size: calc(10px + (22 - 10) * ((100vw - 320px) / (1432 - 320)));

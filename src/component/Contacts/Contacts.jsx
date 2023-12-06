@@ -5,7 +5,8 @@ import Social from '../Social/Social'
 const Contacts = () => {
 	const style = {
 		width: '100%',
-		height: '400px',
+		// height: '400px',
+		height: 'calc(250px + (400 - 250) * ((100vw - 320px) / (1432 - 320)))',
 	}
 
 	return (
@@ -29,9 +30,9 @@ const Contacts = () => {
 			<div>
 				<div id='map' style={style}></div>
 				<div className={s.wrapper}>
-					<div class={s.dgWidgetWLink}>
+					<div className={s.dgWidgetWLink}>
 						<a
-							class={s.link}
+							className={s.link}
 							target='blank'
 							href='http://2gis.ru/novosibirsk/firm/70000001057797992/center/83.08809757232667,54.867618170986965/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap'
 						>
@@ -39,7 +40,7 @@ const Contacts = () => {
 						</a>
 					</div>
 
-					<div class={s.dgWidgetWLink}>
+					<div className={s.dgWidgetWLink}>
 						<a
 							className={s.link}
 							target='blank'
@@ -48,7 +49,7 @@ const Contacts = () => {
 							Фотографии компании
 						</a>
 					</div>
-					<div class={s.dgWidgetWLink}>
+					<div className={s.dgWidgetWLink}>
 						<a
 							className={s.link}
 							target='blank'

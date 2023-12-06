@@ -1,13 +1,13 @@
 .content {
-	background-image: url('./images/фон.jpg');
+	/* background-image: url('./images/фон.jpg');
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: cover;
+	background-size: cover; */
 	/* font-size: contain; */
 	flex-grow: 1;
 }
 
-.wrapper {
+/* .wrapper {
 	display: flex;
 	padding: 0 2rem;
 	background-color: #3e3936;
@@ -16,10 +16,10 @@
 	background-repeat: no-repeat;
 	background-position: left;
 	/* background-size: cover; */
-	font-size: contain;
-}
+/* font-size: contain;
+} */
 
-.intro {
+/* .intro {
 	width: 40%;
 
 	display: flex;
@@ -28,9 +28,9 @@
 	justify-content: center;
 	text-align: center;
 	color: white;
-}
+}  */
 
-.title {
+/* .title {
 	font-size: 3vw;
 	margin: 0;
 	z-index: 2;
@@ -59,4 +59,4 @@
 	top: 0;
 	z-index: 1;
 	margin: auto;
-}
+} */
