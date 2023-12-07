@@ -1,5 +1,6 @@
 .header {
-	padding: 30px;
+	/* 15px - это минимальный размер падинга который я хочу увидеть на разрешении 320px, далее он начального значения отнимаем минимальное/ далее от ширины вьюпорта отнимаем минимальную ширину экрана/ делим на ширину ограничивающего контейнера за вычетом миним размера */
+	padding: calc(10px + (30 - 10) * ((100vw - 320px) / (2400 - 320)));
 	background-color: #6a4d51;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .inner {
-	font-size: 24px;
+	font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1432 - 320)));
 }
 
 .title {
@@ -39,12 +40,12 @@
 
 .time {
 	margin: 0;
-	font-size: 22px;
+	font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (1432 - 320)));
 }
 
 .phone {
 	margin: 0;
-	font-size: 24px;
+	font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1432 - 320)));
 	font-weight: 700;
 }
 
@@ -54,7 +55,7 @@
 	border: 2px solid #d7aaaa;
 	background-color: #69615b;
 	background: none;
-	font-size: 24px;
+	font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1432 - 320)));
 	line-height: 1.1;
 	color: rgb(248, 248, 239);
 	font-weight: 400;
@@ -77,31 +78,15 @@
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 1200px) {
-	.header {
-		/* 15px - это минимальный размер падинга который я хочу увидеть на разрешении 320px, далее он начального значения отнимаем минимальное/ далее от ширины вьюпорта отнимаем минимальную ширину экрана/ делим на ширину ограничивающего контейнера за вычетом миним размера */
-		padding: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
-	}
-	.inner {
-		font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1432 - 320)));
-	}
-	.time {
-		font-size: calc(10px + (22 - 10) * ((100vw - 320px) / (1432 - 320)));
-	}
-	.phone {
-		font-size: calc(10px + (24 - 10) * ((100vw - 320px) / (1432 - 320)));
-	}
-
-	.btn {
-		font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1432 - 320)));
-	}
-}
-
 .menuBtn {
 	display: none;
 }
 
-@media (max-width: 990px) {
+.menu {
+	display: none;
+}
+
+@media (max-width: 1200px) {
 	.nav {
 		position: fixed;
 		top: 0;
@@ -123,15 +108,22 @@
 		transform: translateX(-225px);
 	}
 
-	.info {
-		display: none;
-	}
 	.btn {
 		margin-bottom: 20px;
+		width: 150px;
 	}
 
 	.btn.first {
 		margin-top: 80px;
+	}
+
+	.info {
+		margin-top: 40%;
+		border-bottom: 2px solid #d7aaaa;
+	}
+	.time,
+	.phone {
+		margin-bottom: 5px;
 	}
 
 	.menuBtn {

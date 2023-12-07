@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom'
 const ContentHeader = ({ title, children }) => {
 	return (
 		<div className={s.wrapper}>
-			<Link to='/' className={s.link}>
-				<span className={s.text}>Главная</span>
-			</Link>
-			<span className={s.separator}>/</span>
-			<span className={s.title}>{title}</span>
-			{children}
+			<div className='container'>
+				<Link to='/' className={s.link}>
+					<span className={s.text}>Главная</span>
+				</Link>
+				<span className={s.separator}>/</span>
+				<span className={s.title}>{title}</span>
+				{children}
+			</div>
 		</div>
 	)
 }

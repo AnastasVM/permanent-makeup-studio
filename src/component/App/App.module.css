@@ -1,62 +1,8 @@
 .content {
-	/* background-image: url('./images/фон.jpg');
+	background-image: url('../pages/HomePage/images/фон.jpg');
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: cover; */
-	/* font-size: contain; */
+	background-size: cover;
+	font-size: contain;
 	flex-grow: 1;
 }
-
-/* .wrapper {
-	display: flex;
-	padding: 0 2rem;
-	background-color: #3e3936;
-
-	background-image: url('./images/Inna_pink.png');
-	background-repeat: no-repeat;
-	background-position: left;
-	/* background-size: cover; */
-/* font-size: contain;
-} */
-
-/* .intro {
-	width: 40%;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	color: white;
-}  */
-
-/* .title {
-	font-size: 3vw;
-	margin: 0;
-	z-index: 2;
-}
-
-.subtitle {
-	font-size: 2vw;
-	z-index: 2;
-}
-
-.photo {
-	width: 60%;
-	min-height: 60vh;
-	position: relative;
-	overflow: hidden;
-}
-
-.img {
-	max-height: 100%;
-	max-width: 100%;
-	object-fit: cover;
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	z-index: 1;
-	margin: auto;
-} */

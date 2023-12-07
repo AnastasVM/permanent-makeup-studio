@@ -10,7 +10,7 @@
 
 .services {
 	margin-top: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
-	margin-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
+	padding-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (1432 - 320)));
 	margin-right: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 	margin-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 }

@@ -5,8 +5,9 @@ import Footer from '../Footer/Footer'
 import Modal from '../Modal/Modal'
 import Contacts from '../Contacts/Contacts'
 import { Routes, Route } from 'react-router-dom'
-import AboutMe from '../AboutMe/AboutMe'
+import AboutPage from '../pages/AboutPage/AboutPage'
 import HomePage from '../pages/HomePage/HomePage'
+import PricePage from '../pages/PricePage/PricePage'
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
@@ -29,7 +30,8 @@ function App() {
 						<img className={s.img} src={Inna} alt='Ina'></img>
 					</div>
 				</div> */}
-					<Route path='/aboutMe' element={<AboutMe />} />
+					<Route path='/price' element={<PricePage />} />
+					<Route path='/aboutMe' element={<AboutPage />} />
 					<Route path='/' element={<HomePage />} />
 				</Routes>
 			</main>

@@ -4,7 +4,7 @@
 	padding-right: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 	padding-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 
-	background-color: #fce2e7bd;
+	background-color: #f2dee2bd;
 
 	/* filter: brightness(40%); */
 }
@@ -14,10 +14,11 @@
 	font-size: calc(26px + (56 - 26) * ((100vw - 320px) / (1432 - 320)));
 	margin: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 	text-align: center;
+	margin: 0;
 }
 
 ul {
-	margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1432 - 320)));
+	margin-top: calc(20px + (30 - 20) * ((100vw - 320px) / (1432 - 320)));
 	font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1432 - 320)));
 	font-family: fangsong;
 	font-weight: 600;

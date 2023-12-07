@@ -23,14 +23,7 @@
 }
 
 .image {
-	/* display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-top-right-radius: 15px;
-	border-top-left-radius: 15px;
-	filter: brightness(40%); */
-
+	/* display: block; */
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -39,9 +32,9 @@
 	left: 0;
 
 	filter: brightness(40%);
-	/* border-top-right-radius: 15px;
-	border-top-left-radius: 15px; */
-	border-radius: 15px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	/* border-radius: 15px; */
 }
 
 .card:hover .image {
@@ -66,7 +59,7 @@
 	/* letter-spacing: 0.2vw; */
 }
 
-/* .text {
+.text {
 	font-size: calc(18px + (38 - 18) * ((100vw - 320px) / (1432 - 320)));
 	font-weight: 700;
 	text-align: center;
@@ -75,9 +68,9 @@
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	padding: 5px 0;
-} */
+}
 
-.text {
+/* .text {
 	display: none;
 }
 
@@ -93,4 +86,4 @@
 	left: 50%;
 	transform: translate(-50%, -90%);
 	z-index: 1;
-}
+} */

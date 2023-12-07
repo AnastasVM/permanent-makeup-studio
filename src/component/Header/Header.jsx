@@ -28,10 +28,11 @@ const Header = ({ setActive }) => {
 							<p className={s.time}>с 9:00 до 20:00</p>
 							<p className={s.phone}>+7 913 788 07 01</p>
 						</div>
-						<button
-							className={cn(s.btn, s.first)}
-							onClick={() => setActive(true)}
-						>
+
+						<Link to='/price' className={cn(s.btn, s.first)}>
+							Прайс
+						</Link>
+						<button className={s.btn} onClick={() => setActive(true)}>
 							Контакты
 						</button>
 
