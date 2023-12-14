@@ -17,7 +17,7 @@
 	margin: 0;
 }
 
-ul {
+.list {
 	margin-top: calc(20px + (30 - 20) * ((100vw - 320px) / (1432 - 320)));
 	font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1432 - 320)));
 	font-family: fangsong;

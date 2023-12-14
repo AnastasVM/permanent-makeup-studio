@@ -1,0 +1,70 @@
+.wrapper {
+	background-color: #f2dee2bd;
+	margin: 0 20px;
+}
+.titleSign {
+	font-size: calc(26px + (45 - 26) * ((100vw - 320px) / (1432 - 320)));
+	color: red;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.sign {
+	font-size: calc(26px + (45 - 26) * ((100vw - 320px) / (1432 - 320)));
+	color: red;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.item {
+	text-transform: uppercase;
+	font-size: calc(24px + (42 - 24) * ((100vw - 320px) / (1432 - 320)));
+}
+
+@media (max-width: 460px) {
+	.item {
+		text-transform: none;
+	}
+	.titleSign {
+		display: none;
+	}
+}
+
+.title {
+	text-decoration: none;
+	font-size: calc(24px + (42 - 24) * ((100vw - 320px) / (1432 - 320)));
+	margin: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
+	text-align: center;
+	font-family: fangsong;
+}
+
+.subtitle {
+	font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1432 - 320)));
+	margin-bottom: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
+	/* text-align: center; */
+	font-family: fangsong;
+}
+
+.list {
+	font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+	padding-bottom: 15px;
+}
+
+.list li {
+	margin-bottom: 8px;
+}
+
+.photo {
+	display: block;
+	height: calc(200px + (550 - 200) * ((100vw - 320px) / (1432 - 320)));
+	overflow: hidden;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.photoImg {
+	width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}

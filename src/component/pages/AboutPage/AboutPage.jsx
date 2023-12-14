@@ -2,6 +2,7 @@ import React from 'react'
 import s from './AboutPage.module.css'
 import ContentHeader from '../../ContentHeader/ContentHeader'
 import AboutMe from '../../AboutMe/AboutMe'
+import SliderDiplomas from '../../SliderDiplomas/SliderDiplomas'
 
 const AboutPage = () => {
 	return (
@@ -10,6 +11,7 @@ const AboutPage = () => {
 				<ContentHeader title={'Обо мне'} />
 				<AboutMe />
 			</div>
+			<SliderDiplomas />
 		</div>
 	)
 }

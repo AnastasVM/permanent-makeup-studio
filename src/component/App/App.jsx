@@ -8,31 +8,32 @@ import { Routes, Route } from 'react-router-dom'
 import AboutPage from '../pages/AboutPage/AboutPage'
 import HomePage from '../pages/HomePage/HomePage'
 import PricePage from '../pages/PricePage/PricePage'
+import ServicePage from '../pages/ServicePage/ServicePage'
+import ServicePage2 from '../pages/ServicePage2/ServicePage2'
+import { useParams } from 'react-router-dom'
+import ArticleDepilationPage from '../pages/ArticleDepilationPage/ArticleDepilationPage'
+import ArticlePermanentPage from '../pages/ArticlePermanentPage/ArticlePermanentPage'
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
+
+	const { serviceId } = useParams()
+	console.log('serviceId====>', serviceId)
 
 	return (
 		<>
 			<Header setActive={setModalActive} />
 			<main className={s.content}>
 				<Routes>
-					{/* <div className={s.wrapper}>
-					<div className={s.intro}>
-						<h1 className={s.title}>
-							Студия перманентного макияжа & депиляции
-						</h1>
-						<p className={s.subtitle}>
-							Скидка 10% на любую услугу <br /> при первом визите!
-						</p>
-					</div>
-					<div className={s.photo}>
-						<img className={s.img} src={Inna} alt='Ina'></img>
-					</div>
-				</div> */}
 					<Route path='/price' element={<PricePage />} />
 					<Route path='/aboutMe' element={<AboutPage />} />
 					<Route path='/' element={<HomePage />} />
+					<Route path='/service/:serviceId' element={<ServicePage />} />
+					<Route
+						path='/articleDepilation'
+						element={<ArticleDepilationPage />}
+					/>
+					<Route path='/articlePermanent' element={<ArticlePermanentPage />} />
 				</Routes>
 			</main>
 			<Modal active={modalActive} setActive={setModalActive}>
