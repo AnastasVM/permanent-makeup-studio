@@ -3,6 +3,7 @@ import s from './AboutPage.module.css'
 import ContentHeader from '../../ContentHeader/ContentHeader'
 import AboutMe from '../../AboutMe/AboutMe'
 import SliderDiplomas from '../../SliderDiplomas/SliderDiplomas'
+import SliderHorizontalDiploma from '../../SliderHorizontalDiploma/SliderHorizontalDiploma'
 
 const AboutPage = () => {
 	return (
@@ -12,6 +13,7 @@ const AboutPage = () => {
 				<AboutMe />
 			</div>
 			<SliderDiplomas />
+			<SliderHorizontalDiploma />
 		</div>
 	)
 }

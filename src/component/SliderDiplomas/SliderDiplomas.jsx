@@ -9,7 +9,6 @@ import diplome2 from './images/IMG_5823.jpeg'
 import diplome3 from './images/IMG_5831.jpeg'
 
 const SliderDiplomas = () => {
-	const [slider2, setSlader2] = useState(null)
 	const settings = {
 		className: 'center',
 		centerMode: true,
@@ -58,7 +57,7 @@ const SliderDiplomas = () => {
 	return (
 		<>
 			<div className='wrapper'>
-				<SliderTwo className='sliderTwo' {...settings} ref={slider => slider2}>
+				<SliderTwo className='sliderTwo' {...settings}>
 					<div className='item'>
 						<img src={diplome} alt='' className='img' />
 					</div>

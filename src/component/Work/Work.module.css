@@ -1,0 +1,33 @@
+.photo {
+	width: 23%;
+	height: calc(200px + (280 - 200) * ((100vw - 320px) / (1432 - 320)));
+
+	overflow: hidden;
+	border-radius: 5px;
+
+	@media (max-width: 1200px) {
+		width: 30%;
+	}
+	@media (max-width: 767px) {
+		width: 48%;
+	}
+
+	@media (max-width: 320px) {
+		width: 100%;
+	}
+}
+
+.img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.active {
+	transform: scale(1.8);
+	transition: transform 400ms ease-in-out;
+
+	/* position: absolute;
+	left: 0;
+	right: auto; */
+}

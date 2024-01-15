@@ -57,9 +57,9 @@ const Header = ({ setActive }) => {
 					</div>
 					<button className={s.menuBtn} onClick={() => setOpen(!isOpen)}>
 						{isOpen ? (
-							<img className={s.burgerIcon} src={close} />
+							<img className={s.burgerIcon} src={close} alt='' />
 						) : (
-							<img className={s.burgerIcon} src={burger} />
+							<img className={s.burgerIcon} src={burger} alt='' />
 						)}
 					</button>
 				</div>
