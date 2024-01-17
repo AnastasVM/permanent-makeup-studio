@@ -11,7 +11,6 @@
 	@media (max-width: 767px) {
 		width: 48%;
 	}
-
 	@media (max-width: 320px) {
 		width: 100%;
 	}
@@ -24,10 +23,23 @@
 }
 
 .active {
-	transform: scale(1.8);
+	transform: scale(2.5);
 	transition: transform 400ms ease-in-out;
 
 	/* position: absolute;
-	left: 0;
-	right: auto; */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+	filter: drop-shadow(1px 2px 6px #000);
+
+	@media (max-width: 1200px) {
+		transform: scale(1.8);
+	}
+	@media (max-width: 767px) {
+		transform: scale(1.6);
+	}
+
+	@media (max-width: 320px) {
+		transform: scale(1.2);
+	}
 }

@@ -215,12 +215,12 @@ const ServicePage = () => {
 	const selectedWorks = newService[0].work
 
 	return (
-		<div>
+		<div className={s.service}>
 			<div className='container'>
 				<ContentHeader title={'Мои работы'} />
 				<div className={s.wrapper}>
 					{selectedWorks.map(e => (
-						<Work id={e.id} img={e.img} />
+						<Work id={e.id} img={e.img} key={e.id} />
 					))}
 				</div>
 			</div>

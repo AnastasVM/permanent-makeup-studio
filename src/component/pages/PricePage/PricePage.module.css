@@ -1,6 +1,5 @@
-/* .price {
-	background-image: url('../HomePage/images/фон.jpg');
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: cover;
-} */
+.price {
+	@media (max-width: 1200px) {
+		margin-top: calc(55px + (95 - 55) * ((100vw - 320px) / (1432 - 320)));
+	}
+}

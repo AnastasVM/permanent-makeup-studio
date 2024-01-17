@@ -2,3 +2,81 @@
 	background-color: #6a4d51;
 	color: white;
 }
+
+.header {
+	/* 15px - это минимальный размер падинга который я хочу увидеть на разрешении 320px, далее он начального значения отнимаем минимальное/ далее от ширины вьюпорта отнимаем минимальную ширину экрана/ делим на ширину ограничивающего контейнера за вычетом миним размера */
+	padding: calc(10px + (30 - 10) * ((100vw - 320px) / (2400 - 320)));
+	background-color: #6a4d51;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: calc(10px + (18 - 10) * ((100vw - 320px) / (1432 - 320)));
+	margin-bottom: calc(10px + (18 - 10) * ((100vw - 320px) / (1432 - 320)));
+
+	@media (max-width: 360px) {
+		justify-content: start;
+	}
+}
+
+.link {
+	text-decoration: none;
+}
+
+.inner {
+	font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1432 - 320)));
+	@media (max-width: 360px) {
+		display: none;
+	}
+}
+
+.title {
+	color: white;
+	margin: 0;
+}
+.subtitle {
+	color: rgb(248, 248, 239);
+	margin: 0;
+	font-weight: normal;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	border: 2px solid #d7aaaa;
+	background-color: #69615b;
+	background: none;
+	font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1432 - 320)));
+	line-height: 1.1;
+	color: rgb(248, 248, 239);
+	font-weight: 400;
+	text-align: center;
+	/* text-transform: uppercase; */
+	text-decoration: none;
+	text-decoration: uppercase;
+	padding: 0.8rem 1.6rem;
+	border-radius: 1.8rem;
+	cursor: pointer;
+	font-family: inherit;
+
+	transition: color 0.2s linear, background-color 0.2s linear,
+		box-shadow 0.2s linear;
+	@media (max-width: 1200px) {
+		display: none;
+	}
+}
+
+.btn:hover {
+	color: #69615b;
+	background-color: #d7aaaa;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}

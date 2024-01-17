@@ -9,15 +9,11 @@ import AboutPage from '../pages/AboutPage/AboutPage'
 import HomePage from '../pages/HomePage/HomePage'
 import PricePage from '../pages/PricePage/PricePage'
 import ServicePage from '../pages/ServicePage/ServicePage'
-import { useParams } from 'react-router-dom'
 import ArticleDepilationPage from '../pages/ArticleDepilationPage/ArticleDepilationPage'
 import ArticlePermanentPage from '../pages/ArticlePermanentPage/ArticlePermanentPage'
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
-
-	const { serviceId } = useParams()
-	console.log('serviceId====>', serviceId)
 
 	return (
 		<>
@@ -38,7 +34,7 @@ function App() {
 			<Modal active={modalActive} setActive={setModalActive}>
 				<Contacts />
 			</Modal>
-			<Footer />
+			<Footer setActive={setModalActive} />
 		</>
 	)
 }

@@ -28,7 +28,6 @@ const Header = ({ setActive }) => {
 						className={cn(s.nav, {
 							[s.active]: isOpen,
 						})}
-						// onClick={() => setOpen(false)}
 					>
 						<div className={s.info}>
 							<p className={s.time}>с 9:00 до 20:00</p>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import s from './Work.module.css'
-// import { Link } from 'react-router-dom'
 import cn from 'classnames'
 
 const Work = ({ id, img }) => {
