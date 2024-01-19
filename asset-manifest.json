@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/permanent-makeup-studio/static/css/main.1a12e652.css",
-    "main.js": "/permanent-makeup-studio/static/js/main.90d1f8bb.js",
+    "main.css": "/permanent-makeup-studio/static/css/main.acc6cecd.css",
+    "main.js": "/permanent-makeup-studio/static/js/main.27c43212.js",
     "static/media/11.png": "/permanent-makeup-studio/static/media/11.a9322416e9b40349bc29.png",
     "static/media/IMG_8534.png": "/permanent-makeup-studio/static/media/IMG_8534.7a4cfa802226da45f17a.png",
     "static/media/3.jpeg": "/permanent-makeup-studio/static/media/3.6dd02c24a7d4a3c4834f.jpeg",
@@ -75,11 +75,11 @@
     "static/media/vk.svg": "/permanent-makeup-studio/static/media/vk.e6a37696a510a445824c533aef741bc1.svg",
     "static/media/close.svg": "/permanent-makeup-studio/static/media/close.7bbcf180e9f83cdb492733760c14a49c.svg",
     "static/media/modal-close.svg": "/permanent-makeup-studio/static/media/modal-close.de1980ee3cefa242d19bde54f110f7d7.svg",
-    "main.1a12e652.css.map": "/permanent-makeup-studio/static/css/main.1a12e652.css.map",
-    "main.90d1f8bb.js.map": "/permanent-makeup-studio/static/js/main.90d1f8bb.js.map"
+    "main.acc6cecd.css.map": "/permanent-makeup-studio/static/css/main.acc6cecd.css.map",
+    "main.27c43212.js.map": "/permanent-makeup-studio/static/js/main.27c43212.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a12e652.css",
-    "static/js/main.90d1f8bb.js"
+    "static/css/main.acc6cecd.css",
+    "static/js/main.27c43212.js"
   ]
 }
