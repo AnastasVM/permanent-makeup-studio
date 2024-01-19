@@ -1,0 +1,13 @@
+.photo {
+	height: calc(250px + (900 - 250) * ((100vw - 320px) / (1432 - 320)));
+	width: calc(250px + (900 - 250) * ((100vw - 320px) / (1432 - 320)));
+
+	overflow: hidden;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}

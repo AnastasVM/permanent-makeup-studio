@@ -11,30 +11,53 @@ import PricePage from '../pages/PricePage/PricePage'
 import ServicePage from '../pages/ServicePage/ServicePage'
 import ArticleDepilationPage from '../pages/ArticleDepilationPage/ArticleDepilationPage'
 import ArticlePermanentPage from '../pages/ArticlePermanentPage/ArticlePermanentPage'
+import SelectedPhoto from '../SelectedPhoto/SelectedPhoto'
+import { WorkContext } from '../context/workContext'
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
+	const [modalActiveWork, setModalActiveWork] = useState(false)
+	const [selectedPhoto, setSelectedPhoto] = useState({ id: 0, img: '' })
 
 	return (
 		<>
-			<Header setActive={setModalActive} />
-			<main className={s.content}>
-				<Routes>
-					<Route path='/price' element={<PricePage />} />
-					<Route path='/aboutMe' element={<AboutPage />} />
-					<Route path='/' element={<HomePage />} />
-					<Route path='/service/:serviceId' element={<ServicePage />} />
-					<Route
-						path='/articleDepilation'
-						element={<ArticleDepilationPage />}
+			<WorkContext.Provider value={{ selectedPhoto, setSelectedPhoto }}>
+				<Header setActive={setModalActive} />
+				<main className={s.content}>
+					<Routes>
+						<Route path='/price' element={<PricePage />} />
+						<Route path='/aboutMe' element={<AboutPage />} />
+						<Route path='/' element={<HomePage />} />
+						<Route
+							path='/service/:serviceId'
+							element={
+								<ServicePage
+									active={modalActiveWork}
+									setActive={setModalActiveWork}
+								/>
+							}
+						/>
+						<Route
+							path='/articleDepilation'
+							element={<ArticleDepilationPage />}
+						/>
+						<Route
+							path='/articlePermanent'
+							element={<ArticlePermanentPage />}
+						/>
+					</Routes>
+				</main>
+				<Modal active={modalActive} setActive={setModalActive}>
+					<Contacts />
+				</Modal>
+				<Modal active={modalActiveWork} setActive={setModalActiveWork}>
+					<SelectedPhoto
+						selectedPhoto={selectedPhoto}
+						setSelectedPhoto={setSelectedPhoto}
 					/>
-					<Route path='/articlePermanent' element={<ArticlePermanentPage />} />
-				</Routes>
-			</main>
-			<Modal active={modalActive} setActive={setModalActive}>
-				<Contacts />
-			</Modal>
-			<Footer setActive={setModalActive} />
+				</Modal>
+				<Footer setActive={setModalActive} />
+			</WorkContext.Provider>
 		</>
 	)
 }

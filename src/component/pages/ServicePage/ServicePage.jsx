@@ -97,7 +97,7 @@ import depilation7 from './images/depilation/7.jpeg'
 
 import Work from '../../Work/Work'
 
-const ServicePage = () => {
+const ServicePage = ({ active, setActive }) => {
 	const { serviceId } = useParams()
 	const [works, setWorks] = useState([
 		{
@@ -220,7 +220,13 @@ const ServicePage = () => {
 				<ContentHeader title={'Мои работы'} />
 				<div className={s.wrapper}>
 					{selectedWorks.map(e => (
-						<Work id={e.id} img={e.img} key={e.id} />
+						<Work
+							id={e.id}
+							img={e.img}
+							key={e.id}
+							active={active}
+							setActive={setActive}
+						/>
 					))}
 				</div>
 			</div>
