@@ -18,7 +18,7 @@ const Modal = ({ active, setActive, children }) => {
 				onClick={e => e.stopPropagation()}
 			>
 				<button onClick={() => setActive(false)} className={s.modalClose}>
-					<img src={close} alt='close' />
+					<img src={close} alt='close' height={45} width={45} />
 				</button>
 				{children}
 			</div>

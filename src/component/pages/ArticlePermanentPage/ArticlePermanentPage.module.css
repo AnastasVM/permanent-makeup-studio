@@ -6,18 +6,41 @@
 		margin-top: calc(55px + (95 - 55) * ((100vw - 320px) / (1432 - 320)));
 	}
 }
-.titleSign {
-	font-size: calc(26px + (45 - 26) * ((100vw - 320px) / (1432 - 320)));
-	color: red;
+
+.titleArticle {
+	font-size: calc(25px + (35 - 25) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+	color: #6a4d51;
 	font-weight: 700;
-	white-space: nowrap;
+	margin-bottom: 25px;
+	font-style: italic;
 }
 
-.sign {
-	font-size: calc(26px + (45 - 26) * ((100vw - 320px) / (1432 - 320)));
-	color: red;
+.articles {
+	font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+	color: #6a4d51;
 	font-weight: 700;
-	white-space: nowrap;
+	text-decoration: none;
+	margin-bottom: calc(22px + (100 - 22) * ((100vw - 320px) / (1432 - 320)));
+	cursor: pointer;
+}
+
+.link {
+	text-decoration: none;
+	color: #6a4d51;
+}
+
+.listLi {
+	margin-bottom: 15px;
+	list-style: none;
+	font-style: italic;
+}
+
+.listLi:hover {
+	/* color: #362729; */
+	transition: 0.2s linear;
+	filter: drop-shadow(1px 2px 15px #321313);
 }
 
 .item {
@@ -53,10 +76,21 @@
 	font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1432 - 320)));
 	font-family: fangsong;
 	padding-bottom: 15px;
+	list-style: none;
 }
 
 .list li {
-	margin-bottom: 8px;
+	margin-bottom: 15px;
+}
+
+.iconTitle {
+	margin-right: 10px;
+	vertical-align: -5%;
+}
+
+.icon {
+	margin-right: 10px;
+	vertical-align: -15%;
 }
 
 .photo {

@@ -1,6 +1,7 @@
 .wrapper {
 	background-color: #f2dee2bd;
 	margin: 0 20px;
+	padding-left: 10px;
 	@media (max-width: 1200px) {
 		margin-top: calc(55px + (95 - 55) * ((100vw - 320px) / (1432 - 320)));
 	}

@@ -13,6 +13,14 @@ import ArticleDepilationPage from '../pages/ArticleDepilationPage/ArticleDepilat
 import ArticlePermanentPage from '../pages/ArticlePermanentPage/ArticlePermanentPage'
 import SelectedPhoto from '../SelectedPhoto/SelectedPhoto'
 import { WorkContext } from '../context/workContext'
+import PreparationDepilation from '../pages/ArticlePage/PreparationDepilation/PreparationDepilation'
+import Contraindication from '../pages/ArticlePage/Contraindication/Сontraindication'
+import PeriodPage from '../pages/ArticlePage/PeriodPage/PeriodPage'
+import PainfulSensations from '../pages/ArticlePage/PainfulSensations/PainfulSensations'
+import Correction from '../pages/ArticlePage/Correction/Correction'
+import BlueEyebrows from '../pages/ArticlePage/BlueEyebrows/BlueEyebrows'
+import Fixation from '../pages/ArticlePage/Fixation/Fixation'
+import Refresh from '../pages/ArticlePage/Refresh/Refresh'
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
@@ -42,19 +50,28 @@ function App() {
 							element={<ArticleDepilationPage />}
 						/>
 						<Route
+							path='/preparationDepilation'
+							element={<PreparationDepilation />}
+						/>
+
+						<Route
 							path='/articlePermanent'
 							element={<ArticlePermanentPage />}
 						/>
+						<Route path='/periodPage' element={<PeriodPage />} />
+						<Route path='/contraindication' element={<Contraindication />} />
+						<Route path='/painfulSensations' element={<PainfulSensations />} />
+						<Route path='/correction' element={<Correction />} />
+						<Route path='/blueEyebrows' element={<BlueEyebrows />} />
+						<Route path='/fixation' element={<Fixation />} />
+						<Route path='/refresh' element={<Refresh />} />
 					</Routes>
 				</main>
 				<Modal active={modalActive} setActive={setModalActive}>
 					<Contacts />
 				</Modal>
 				<Modal active={modalActiveWork} setActive={setModalActiveWork}>
-					<SelectedPhoto
-						selectedPhoto={selectedPhoto}
-						setSelectedPhoto={setSelectedPhoto}
-					/>
+					<SelectedPhoto />
 				</Modal>
 				<Footer setActive={setModalActive} />
 			</WorkContext.Provider>

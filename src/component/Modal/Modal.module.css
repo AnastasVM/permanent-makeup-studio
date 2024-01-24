@@ -30,7 +30,7 @@
 }
 
 .modalContent {
-	padding: 20px;
+	padding: 5px;
 	border-radius: 12px;
 	background-color: white;
 	transform: scale(0.5);
@@ -51,8 +51,8 @@
 	cursor: pointer;
 
 	position: absolute;
-	top: 1rem;
-	right: 3rem;
+	top: 0.58rem;
+	right: 3.4rem;
 	z-index: 2;
 
 	&:hover {

@@ -25,7 +25,6 @@ const Work = ({ id, img, setActive, active }) => {
 				src={img}
 				id={id}
 				alt=''
-				// onClick={() => setActivePhoto(!activePhoto)}
 				onClick={() => workId(id, { img })}
 			></img>
 		</div>

@@ -10,20 +10,26 @@ const MySelect = ({ isOpen, setOpen }) => {
 		e.preventDefault()
 		setNav(!nav)
 	}
+
+	const handleCloseMenu = e => {
+		setNav(!nav)
+		setOpen(false)
+	}
 	return (
 		<div
 			className={cn(s.wrapper, {
 				[s.active]: nav,
 			})}
 		>
-			<ul className={s.menu}>
+			<button className={s.btn} onClick={handleNav}>
 				Статьи
-				<span className={s.arrow} onClick={handleNav}></span>
+			</button>
+			<ul className={s.menu}>
 				<li className={s.li}>
 					<Link
 						to='/articlePermanent'
 						className={s.link}
-						onClick={() => setOpen(false)}
+						onClick={handleCloseMenu}
 					>
 						Перманент
 					</Link>
@@ -32,7 +38,7 @@ const MySelect = ({ isOpen, setOpen }) => {
 					<Link
 						to='/articleDepilation'
 						className={s.link}
-						onClick={() => setOpen(false)}
+						onClick={handleCloseMenu}
 					>
 						Депиляция
 					</Link>

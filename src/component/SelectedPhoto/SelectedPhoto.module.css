@@ -1,7 +1,7 @@
 .photo {
 	height: calc(250px + (900 - 250) * ((100vw - 320px) / (1432 - 320)));
 	width: calc(250px + (900 - 250) * ((100vw - 320px) / (1432 - 320)));
-
+	border-radius: 8px;
 	overflow: hidden;
 }
 
