@@ -56,11 +56,24 @@ const ArticlePermanentPage = () => {
 					</li>
 
 					<li className={s.listLi}>
-						Правила ухода за губами после процедуры перманентного макияжа
+						<Link to='/rulesCare' className={s.link}>
+							Правила ухода за губами после процедуры перманентного макияжа
+						</Link>
 					</li>
-					<li className={s.listLi}>Ботокс, филлеры и перманентный макияж</li>
 					<li className={s.listLi}>
-						Что сначала: перманент губ или увеличение
+						<Link to='/botox' className={s.link}>
+							Ботокс, филлеры и перманентный макияж
+						</Link>
+					</li>
+					<li className={s.listLi}>
+						<Link to='/lipAugmentation' className={s.link}>
+							Что сначала: перманент губ или увеличение
+						</Link>
+					</li>
+					<li className={s.listLi}>
+						<Link to='/agePermanent' className={s.link}>
+							Возрастной перманентный макияж
+						</Link>
 					</li>
 				</ul>
 

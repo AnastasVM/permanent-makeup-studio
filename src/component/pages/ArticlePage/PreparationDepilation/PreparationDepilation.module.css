@@ -18,13 +18,14 @@
 .subtitle {
 	font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1432 - 320)));
 	margin-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+	margin-top: calc(20px + (30 - 20) * ((100vw - 320px) / (1432 - 320)));
 	font-family: fangsong;
 }
 
 .list {
 	font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1432 - 320)));
 	font-family: fangsong;
-	padding-bottom: 15px;
+	padding: 20px 0;
 	list-style: none;
 }
 

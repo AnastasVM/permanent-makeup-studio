@@ -36,7 +36,7 @@
 
 .photo {
 	display: block;
-	height: calc(200px + (550 - 200) * ((100vw - 320px) / (1432 - 320)));
+	height: calc(130px + (550 - 130) * ((100vw - 320px) / (1432 - 320)));
 	overflow: hidden;
 	padding: 15px 0;
 	text-align: center;

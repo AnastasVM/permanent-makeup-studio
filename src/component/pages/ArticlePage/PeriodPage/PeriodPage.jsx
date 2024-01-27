@@ -2,7 +2,7 @@ import React from 'react'
 import s from './PeriodPage.module.css'
 import ContentHeader from '../../../ContentHeader/ContentHeader'
 import done from './images/icons8-успех-94.png'
-import exclamation from './images/icons-восклицание.png'
+import thinking from './images/thinking-face.png'
 import up from './images/icons8-легко-100.png'
 import question from './images/вопрос.png'
 
@@ -28,11 +28,11 @@ const PeriodPage = () => {
 				<h3 className={s.subtitle}>
 					Часто задаваемый вопрос. Давайте разберём
 					<img
-						src={exclamation}
-						width={30}
-						height={30}
+						src={thinking}
+						width={35}
+						height={35}
 						alt=''
-						className={s.icon}
+						className={s.iconTitle}
 					/>
 				</h3>
 				<p className={s.text}>
@@ -73,9 +73,9 @@ const PeriodPage = () => {
 						плюсы!
 					</li>
 				</ul>
-				<div className={s.photo}>
-					{/* <img src={photo} className={s.photoImg} alt='' /> */}
-				</div>
+				{/* <div className={s.photo}>
+				<img src={photo} className={s.photoImg} alt='' />
+				</div> */}
 			</div>
 		</div>
 	)

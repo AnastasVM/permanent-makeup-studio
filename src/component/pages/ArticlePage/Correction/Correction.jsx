@@ -66,9 +66,9 @@ const Correction = () => {
 					/>
 				</p>
 
-				<div className={s.photo}>
-					{/* <img src={photo} className={s.photoImg} alt='' /> */}
-				</div>
+				{/* <div className={s.photo}>
+					<img src={photo} className={s.photoImg} alt='' />
+				</div> */}
 			</div>
 		</div>
 	)

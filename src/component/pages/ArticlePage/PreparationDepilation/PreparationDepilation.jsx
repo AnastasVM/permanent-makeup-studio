@@ -3,7 +3,7 @@ import s from './PreparationDepilation.module.css'
 import ContentHeader from '../../../ContentHeader/ContentHeader'
 import cross from './images/cross.png'
 import sign from './images/внимание.png'
-import photo from './images/IMG_8586.JPG'
+import photo from './images/IMG_8580.JPG'
 
 const PreparationDepilation = () => {
 	return (

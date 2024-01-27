@@ -48,9 +48,9 @@
 
 .photo {
 	display: block;
-	height: calc(200px + (550 - 200) * ((100vw - 320px) / (1432 - 320)));
+	height: calc(150px + (550 - 150) * ((100vw - 320px) / (1432 - 320)));
 	overflow: hidden;
-	padding: 15px 0;
+	padding-bottom: 15px;
 	text-align: center;
 }
 

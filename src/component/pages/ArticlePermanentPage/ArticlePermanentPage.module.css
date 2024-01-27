@@ -22,7 +22,7 @@
 	color: #6a4d51;
 	font-weight: 700;
 	text-decoration: none;
-	margin-bottom: calc(22px + (100 - 22) * ((100vw - 320px) / (1432 - 320)));
+	margin-bottom: calc(30px + (80 - 30) * ((100vw - 320px) / (1432 - 320)));
 	cursor: pointer;
 }
 
@@ -41,20 +41,6 @@
 	/* color: #362729; */
 	transition: 0.2s linear;
 	filter: drop-shadow(1px 2px 15px #321313);
-}
-
-.item {
-	text-transform: uppercase;
-	font-size: calc(24px + (42 - 24) * ((100vw - 320px) / (1432 - 320)));
-}
-
-@media (max-width: 460px) {
-	.item {
-		text-transform: none;
-	}
-	.titleSign {
-		display: none;
-	}
 }
 
 .title {

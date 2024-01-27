@@ -21,6 +21,21 @@ import Correction from '../pages/ArticlePage/Correction/Correction'
 import BlueEyebrows from '../pages/ArticlePage/BlueEyebrows/BlueEyebrows'
 import Fixation from '../pages/ArticlePage/Fixation/Fixation'
 import Refresh from '../pages/ArticlePage/Refresh/Refresh'
+import RulesCare from '../pages/ArticlePage/RulesCare/RulesCare'
+import Botox from '../pages/ArticlePage/Botox/Botox'
+import LipAugmentation from '../pages/ArticlePage/LipAugmentation/LipAugmentation'
+import AgePermanent from '../pages/ArticlePage/AgePermanent/AgePermanent'
+import Shaving from '../pages/ArticlePage/Shaving/Shaving'
+import IngrownHairs from '../pages/ArticlePage/IngrownHairs/IngrownHairs'
+import Constriction from '../pages/ArticlePage/Constriction/Constriction'
+import PostDepilationEffect from '../pages/ArticlePage/PostDepilationEffect/PostDepilationEffect'
+import Sugaring from '../pages/ArticlePage/Sugaring/Sugaring'
+import ReactionDepilation from '../pages/ArticlePage/ReactionDepilation/ReactionDepilation'
+import Scrubbing from '../pages/ArticlePage/Scrubbing/Scrubbing'
+import AutumnCare from '../pages/ArticlePage/AutumnCare/AutumnCare'
+import DrySkin from '../pages/ArticlePage/DrySkin/DrySkin'
+import CareСold from '../pages/ArticlePage/CareСold/CareСold'
+import LipsCracking from '../pages/ArticlePage/LipsCracking/LipsCracking'
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
@@ -49,14 +64,31 @@ function App() {
 							path='/articleDepilation'
 							element={<ArticleDepilationPage />}
 						/>
+						<Route path='/shaving' element={<Shaving />} />
+						<Route path='/ingrownHairs' element={<IngrownHairs />} />
+						<Route path='/constriction' element={<Constriction />} />
 						<Route
-							path='/preparationDepilation'
-							element={<PreparationDepilation />}
+							path='/postDepilationEffect'
+							element={<PostDepilationEffect />}
 						/>
+						<Route path='/sugaring' element={<Sugaring />} />
+						<Route
+							path='/reactionDepilation'
+							element={<ReactionDepilation />}
+						/>
+						<Route path='/scrubbing' element={<Scrubbing />} />
+						<Route path='/autumnCare' element={<AutumnCare />} />
+						<Route path='/drySkin' element={<DrySkin />} />
+						<Route path='/careСold' element={<CareСold />} />
+						<Route path='/lipsCracking' element={<LipsCracking />} />
 
 						<Route
 							path='/articlePermanent'
 							element={<ArticlePermanentPage />}
+						/>
+						<Route
+							path='/preparationDepilation'
+							element={<PreparationDepilation />}
 						/>
 						<Route path='/periodPage' element={<PeriodPage />} />
 						<Route path='/contraindication' element={<Contraindication />} />
@@ -65,6 +97,10 @@ function App() {
 						<Route path='/blueEyebrows' element={<BlueEyebrows />} />
 						<Route path='/fixation' element={<Fixation />} />
 						<Route path='/refresh' element={<Refresh />} />
+						<Route path='/rulesCare' element={<RulesCare />} />
+						<Route path='/botox' element={<Botox />} />
+						<Route path='/lipAugmentation' element={<LipAugmentation />} />
+						<Route path='/agePermanent' element={<AgePermanent />} />
 					</Routes>
 				</main>
 				<Modal active={modalActive} setActive={setModalActive}>
