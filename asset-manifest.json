@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/permanent-makeup-studio/static/css/main.6d7df4f1.css",
-    "main.js": "/permanent-makeup-studio/static/js/main.97c1bad1.js",
+    "main.css": "/permanent-makeup-studio/static/css/main.5fafc287.css",
+    "main.js": "/permanent-makeup-studio/static/js/main.22d8d136.js",
     "static/media/11.png": "/permanent-makeup-studio/static/media/11.a9322416e9b40349bc29.png",
     "static/media/IMG_8534.png": "/permanent-makeup-studio/static/media/IMG_8534.7a4cfa802226da45f17a.png",
     "static/media/3.jpeg": "/permanent-makeup-studio/static/media/3.6dd02c24a7d4a3c4834f.jpeg",
     "static/media/24.jpeg": "/permanent-makeup-studio/static/media/24.3e48fbc19ece25ad0339.jpeg",
     "static/media/6.jpeg": "/permanent-makeup-studio/static/media/6.760153acd573ff38c314.jpeg",
+    "static/media/photo.jpeg": "/permanent-makeup-studio/static/media/photo.9772ca735ff3715404fa.jpeg",
     "static/media/28.jpeg": "/permanent-makeup-studio/static/media/28.f42e79b20bbc912bd1b7.jpeg",
     "static/media/IMG_5822.jpeg": "/permanent-makeup-studio/static/media/IMG_5822.21396136734eb6b35e24.jpeg",
     "static/media/10.jpeg": "/permanent-makeup-studio/static/media/10.24a871b9a3fb31e004fd.jpeg",
@@ -48,12 +49,13 @@
     "static/media/IMG_5834.jpeg": "/permanent-makeup-studio/static/media/IMG_5834.a5a049fe4dbe53a1dfa6.jpeg",
     "static/media/IMG_5829.jpeg": "/permanent-makeup-studio/static/media/IMG_5829.6be8437ea42f9aa64dac.jpeg",
     "static/media/IMG_8752.JPG": "/permanent-makeup-studio/static/media/IMG_8752.e2e978a0bab74e450379.JPG",
-    "static/media/IMG_8586.JPG": "/permanent-makeup-studio/static/media/IMG_8586.afff48356cbed6e5fd6a.JPG",
     "static/media/5.JPG": "/permanent-makeup-studio/static/media/5.25a11b935f57a0d13bf9.JPG",
     "static/media/IMG_8428.JPG": "/permanent-makeup-studio/static/media/IMG_8428.ac6646d7d23e93eaebed.JPG",
     "static/media/IMG_5835.jpeg": "/permanent-makeup-studio/static/media/IMG_5835.d05ecaddbb1e6b980f56.jpeg",
     "static/media/IMG_5827.jpeg": "/permanent-makeup-studio/static/media/IMG_5827.6d0df5d855dbfa7df614.jpeg",
     "static/media/IMG_5839.jpeg": "/permanent-makeup-studio/static/media/IMG_5839.4ff6887b225f9ce37910.jpeg",
+    "static/media/IMG_8580.JPG": "/permanent-makeup-studio/static/media/IMG_8580.f913e14319882ddfdfe2.JPG",
+    "static/media/photoLips.jpeg": "/permanent-makeup-studio/static/media/photoLips.ca128c3d67fe3b744c6d.jpeg",
     "static/media/IMG_5825.jpeg": "/permanent-makeup-studio/static/media/IMG_5825.de97ea9198ee57182b91.jpeg",
     "static/media/IMG_5830.jpeg": "/permanent-makeup-studio/static/media/IMG_5830.a821e606fae8a841280b.jpeg",
     "static/media/1.JPG": "/permanent-makeup-studio/static/media/1.b25310b7abf655f0e031.JPG",
@@ -74,7 +76,11 @@
     "static/media/eyes3.jpeg": "/permanent-makeup-studio/static/media/eyes3.5399bed43a2c7a339396.jpeg",
     "static/media/фон.jpg": "/permanent-makeup-studio/static/media/фон.6bbcdb3034aac8089284.jpg",
     "static/media/face.png": "/permanent-makeup-studio/static/media/face.636c18be0835eb15affd.png",
+    "static/media/thinking-face.png": "/permanent-makeup-studio/static/media/thinking-face.fd836dc0445d0b9b248f.png",
+    "static/media/done.png": "/permanent-makeup-studio/static/media/done.2463630ae1a9377f0afc.png",
     "static/media/icons8-успех-94.png": "/permanent-makeup-studio/static/media/icons8-успех-94.2463630ae1a9377f0afc.png",
+    "static/media/успех.png": "/permanent-makeup-studio/static/media/успех.2463630ae1a9377f0afc.png",
+    "static/media/шприц.png": "/permanent-makeup-studio/static/media/шприц.8bf24eec30776f0e1590.png",
     "static/media/icons8-меню.svg": "/permanent-makeup-studio/static/media/icons8-меню.6d680eadc05c899c4647a14666c9025a.svg",
     "static/media/instagram.svg": "/permanent-makeup-studio/static/media/instagram.5fd75d5fbee374f89901e90def97c9d0.svg",
     "index.html": "/permanent-makeup-studio/index.html",
@@ -82,11 +88,11 @@
     "static/media/vk.svg": "/permanent-makeup-studio/static/media/vk.e6a37696a510a445824c533aef741bc1.svg",
     "static/media/close.svg": "/permanent-makeup-studio/static/media/close.7bbcf180e9f83cdb492733760c14a49c.svg",
     "static/media/modal-close.svg": "/permanent-makeup-studio/static/media/modal-close.de1980ee3cefa242d19bde54f110f7d7.svg",
-    "main.6d7df4f1.css.map": "/permanent-makeup-studio/static/css/main.6d7df4f1.css.map",
-    "main.97c1bad1.js.map": "/permanent-makeup-studio/static/js/main.97c1bad1.js.map"
+    "main.5fafc287.css.map": "/permanent-makeup-studio/static/css/main.5fafc287.css.map",
+    "main.22d8d136.js.map": "/permanent-makeup-studio/static/js/main.22d8d136.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d7df4f1.css",
-    "static/js/main.97c1bad1.js"
+    "static/css/main.5fafc287.css",
+    "static/js/main.22d8d136.js"
   ]
 }
