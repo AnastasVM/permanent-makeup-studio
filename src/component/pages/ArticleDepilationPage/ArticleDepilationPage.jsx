@@ -43,7 +43,7 @@ const ArticleDepilationPage = () => {
 					</li>
 					<li className={s.listLi}>
 						<Link to='/reactionDepilation' className={s.link}>
-							Какая бывает реакция у кожи на депиляцию
+							Реакция кожи на депиляцию
 						</Link>
 					</li>
 					<li className={s.listLi}>
