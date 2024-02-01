@@ -47,6 +47,31 @@ const ArticleDepilationPage = () => {
 						</Link>
 					</li>
 					<li className={s.listLi}>
+						<Link to='/pregnancy' className={s.link}>
+							Депиляция и беременность
+						</Link>
+					</li>
+					<li className={s.listLi}>
+						<Link to='/alcohol' className={s.link}>
+							Депиляция и алкоголь
+						</Link>
+					</li>
+					<li className={s.listLi}>
+						<Link to='/teenageEpilation' className={s.link}>
+							Подростковая эпиляция
+						</Link>
+					</li>
+					<li className={s.listLi}>
+						<Link to='/nutrition' className={s.link}>
+							Питание и депиляция
+						</Link>
+					</li>
+					<li className={s.listLi}>
+						<Link to='/sunProtection' className={s.link}>
+							Как защищать кожу от солнца после депиляции
+						</Link>
+					</li>
+					<li className={s.listLi}>
 						<Link to='/scrubbing' className={s.link}>
 							Скрабирование
 						</Link>
@@ -65,11 +90,6 @@ const ArticleDepilationPage = () => {
 					<li className={s.listLi}>
 						<Link to='/careСold' className={s.link}>
 							Что нужно и не нужно коже в холода
-						</Link>
-					</li>
-					<li className={s.listLi}>
-						<Link to='/lipsCracking' className={s.link}>
-							Почему трескаются губы
 						</Link>
 					</li>
 				</ul>

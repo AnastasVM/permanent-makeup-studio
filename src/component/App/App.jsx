@@ -36,6 +36,12 @@ import AutumnCare from '../pages/ArticlePage/AutumnCare/AutumnCare'
 import DrySkin from '../pages/ArticlePage/DrySkin/DrySkin'
 import CareСold from '../pages/ArticlePage/CareСold/CareСold'
 import LipsCracking from '../pages/ArticlePage/LipsCracking/LipsCracking'
+import EyebrowPigment from '../pages/ArticlePage/EyebrowPigment/EyebrowPigment'
+import SunProtection from '../pages/ArticlePage/SunProtection/SunProtection'
+import Pregnancy from '../pages/ArticlePage/Pregnancy/Pregnancy'
+import Alcohol from '../pages/ArticlePage/Alcohol/Alcohol.jsx'
+import TeenageEpilation from '../pages/ArticlePage/TeenageEpilation/TeenageEpilation.jsx'
+import Nutrition from '../pages/ArticlePage/Nutrition/Nutrition.jsx'
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
@@ -81,14 +87,19 @@ function App() {
 						<Route path='/drySkin' element={<DrySkin />} />
 						<Route path='/careСold' element={<CareСold />} />
 						<Route path='/lipsCracking' element={<LipsCracking />} />
+						<Route
+							path='/preparationDepilation'
+							element={<PreparationDepilation />}
+						/>
+						<Route path='/sunProtection' element={<SunProtection />} />
+						<Route path='/pregnancy' element={<Pregnancy />} />
+						<Route path='/alcohol' element={<Alcohol />} />
+						<Route path='/teenageEpilation' element={<TeenageEpilation />} />
+						<Route path='/nutrition' element={<Nutrition />} />
 
 						<Route
 							path='/articlePermanent'
 							element={<ArticlePermanentPage />}
-						/>
-						<Route
-							path='/preparationDepilation'
-							element={<PreparationDepilation />}
 						/>
 						<Route path='/periodPage' element={<PeriodPage />} />
 						<Route path='/contraindication' element={<Contraindication />} />
@@ -101,6 +112,7 @@ function App() {
 						<Route path='/botox' element={<Botox />} />
 						<Route path='/lipAugmentation' element={<LipAugmentation />} />
 						<Route path='/agePermanent' element={<AgePermanent />} />
+						<Route path='/eyebrowPigment' element={<EyebrowPigment />} />
 					</Routes>
 				</main>
 				<Modal active={modalActive} setActive={setModalActive}>

@@ -71,9 +71,6 @@ const Fixation = () => {
 						className={s.iconSign}
 					/>
 				</p>
-				{/* <div className={s.photo}>
-					<img src={photo} className={s.photoImg} alt='' />
-				</div> */}
 			</div>
 		</div>
 	)

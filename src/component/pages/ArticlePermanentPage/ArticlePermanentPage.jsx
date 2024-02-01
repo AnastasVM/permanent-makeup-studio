@@ -45,6 +45,11 @@ const ArticlePermanentPage = () => {
 						</Link>
 					</li>
 					<li className={s.listLi}>
+						<Link to='/eyebrowPigment' className={s.link}>
+							Как и когда проявляется окончательный пигмент на бровях
+						</Link>
+					</li>
+					<li className={s.listLi}>
 						<Link to='/fixation' className={s.link}>
 							Почему татуаж может плохо приживаться
 						</Link>
@@ -54,10 +59,14 @@ const ArticlePermanentPage = () => {
 							Рефреш в перманенте
 						</Link>
 					</li>
-
 					<li className={s.listLi}>
 						<Link to='/rulesCare' className={s.link}>
 							Правила ухода за губами после процедуры перманентного макияжа
+						</Link>
+					</li>
+					<li className={s.listLi}>
+						<Link to='/lipsCracking' className={s.link}>
+							Почему трескаются губы
 						</Link>
 					</li>
 					<li className={s.listLi}>

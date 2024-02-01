@@ -36,9 +36,9 @@ const AgePermanent = () => {
 					Однако они же оборачиваются плюсами в ситуации, если женщина решила
 					сделать татуаж на возрастной коже.
 				</p>
-				<p className={s.text}>
+				<h3 className={s.subtitle}>
 					Рассмотрим основные преимущества возрастного перманентного макияжа:
-				</p>
+				</h3>
 				<ul className={s.list}>
 					<li>
 						<img src={done} alt='' height={30} width={30} className={s.icon} />

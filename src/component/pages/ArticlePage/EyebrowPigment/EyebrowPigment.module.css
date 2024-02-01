@@ -18,26 +18,21 @@
 	font-family: fangsong;
 }
 
+.subtitle {
+	font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1432 - 320)));
+	margin-bottom: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+}
+
 .text {
 	font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1432 - 320)));
 	margin-bottom: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
 	font-family: fangsong;
 }
 
-.list {
-	font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1432 - 320)));
-	font-family: fangsong;
-	padding-bottom: 15px;
-	list-style: none;
-}
-
-.list li {
-	margin-bottom: 15px;
-}
-
 .iconTitle {
-	margin-left: 10px;
-	vertical-align: baseline;
+	margin-left: 3px;
+	vertical-align: middle;
 }
 
 .icon {

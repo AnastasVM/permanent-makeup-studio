@@ -3,7 +3,51 @@
 	margin: 0 20px;
 	padding-left: 10px;
 
+	padding-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
+
 	@media (max-width: 1200px) {
 		margin-top: calc(55px + (95 - 55) * ((100vw - 320px) / (1432 - 320)));
 	}
+}
+
+.title {
+	text-decoration: none;
+	font-size: calc(24px + (42 - 24) * ((100vw - 320px) / (1432 - 320)));
+	margin: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
+	text-align: center;
+	font-family: fangsong;
+}
+
+.subtitle {
+	font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1432 - 320)));
+	margin-bottom: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+}
+
+.text {
+	font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1432 - 320)));
+	margin-bottom: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+	font-weight: 500;
+}
+
+.list {
+	font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1432 - 320)));
+	font-family: fangsong;
+	padding-bottom: 15px;
+	list-style: none;
+}
+
+.list li {
+	margin-bottom: 15px;
+}
+
+.icon {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.iconTitle {
+	margin-left: 10px;
+	vertical-align: -5%;
 }
