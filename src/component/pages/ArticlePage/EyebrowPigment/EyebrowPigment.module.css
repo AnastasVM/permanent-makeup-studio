@@ -36,6 +36,11 @@
 }
 
 .icon {
-	margin-right: 10px;
+	margin-left: 5px;
+	vertical-align: baseline;
+}
+
+.iconText {
+	margin-right: 5px;
 	vertical-align: baseline;
 }

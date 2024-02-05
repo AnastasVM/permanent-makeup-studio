@@ -73,9 +73,6 @@ const PeriodPage = () => {
 						плюсы!
 					</li>
 				</ul>
-				{/* <div className={s.photo}>
-				<img src={photo} className={s.photoImg} alt='' />
-				</div> */}
 			</div>
 		</div>
 	)

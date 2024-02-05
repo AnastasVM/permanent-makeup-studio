@@ -37,7 +37,7 @@ const EyebrowPigment = () => {
 						width={35}
 						height={35}
 						alt=''
-						className={s.iconTitle}
+						className={s.iconText}
 					/>
 					Проявляется татуаж не сразу, даже после удаления корочек пигмент
 					кажется слишком светлым. Новички пугаются, переживают за потраченные
@@ -76,7 +76,7 @@ const EyebrowPigment = () => {
 						width={30}
 						height={30}
 						alt=''
-						className={s.iconTitle}
+						className={s.icon}
 					/>
 				</h3>
 				<p className={s.text}>
