@@ -23,6 +23,15 @@ import lips18 from './images/lips/18.jpeg'
 import lips19 from './images/lips/19.jpeg'
 import lips20 from './images/lips/20.jpeg'
 import lips21 from './images/lips/21.jpeg'
+import lips22 from './images/lips/22.jpeg'
+import lips23 from './images/lips/23.jpeg'
+import lips24 from './images/lips/24.jpeg'
+import lips25 from './images/lips/25.jpeg'
+import lips26 from './images/lips/26.jpeg'
+import lips27 from './images/lips/27.jpeg'
+import lips28 from './images/lips/28.jpeg'
+import lips29 from './images/lips/29.jpeg'
+import lips30 from './images/lips/30.jpeg'
 
 import brows1 from './images/brows/1.jpeg'
 import brows2 from './images/brows/2.jpeg'
@@ -55,6 +64,17 @@ import brows28 from './images/brows/28.jpeg'
 import brows29 from './images/brows/29.jpeg'
 import brows30 from './images/brows/30.jpeg'
 import brows31 from './images/brows/31.jpeg'
+import brows32 from './images/brows/32.jpeg'
+import brows33 from './images/brows/33.jpeg'
+import brows34 from './images/brows/34.jpeg'
+import brows35 from './images/brows/35.jpeg'
+import brows36 from './images/brows/36.jpeg'
+import brows37 from './images/brows/37.jpeg'
+import brows38 from './images/brows/38.jpeg'
+import brows39 from './images/brows/39.jpeg'
+import brows40 from './images/brows/40.jpeg'
+import brows41 from './images/brows/41.jpeg'
+import brows42 from './images/brows/42.jpeg'
 
 import eyes1 from './images/eyes/1.jpeg'
 import eyes2 from './images/eyes/2.jpeg'
@@ -86,6 +106,7 @@ import eyes27 from './images/eyes/27.jpeg'
 import eyes28 from './images/eyes/28.jpeg'
 import eyes29 from './images/eyes/29.jpeg'
 import eyes30 from './images/eyes/30.jpeg'
+import eyes31 from './images/eyes/31.jpeg'
 
 import depilation1 from './images/depilation/1.JPG'
 import depilation2 from './images/depilation/2.JPG'
@@ -124,6 +145,15 @@ const ServicePage = ({ active, setActive }) => {
 				{ id: 19, img: lips19 },
 				{ id: 20, img: lips20 },
 				{ id: 21, img: lips21 },
+				{ id: 22, img: lips22 },
+				{ id: 23, img: lips23 },
+				{ id: 24, img: lips24 },
+				{ id: 25, img: lips25 },
+				{ id: 26, img: lips26 },
+				{ id: 27, img: lips27 },
+				{ id: 28, img: lips28 },
+				{ id: 29, img: lips29 },
+				{ id: 30, img: lips30 },
 			],
 		},
 		{
@@ -160,6 +190,17 @@ const ServicePage = ({ active, setActive }) => {
 				{ id: 29, img: brows29 },
 				{ id: 30, img: brows30 },
 				{ id: 31, img: brows31 },
+				{ id: 32, img: brows32 },
+				{ id: 33, img: brows33 },
+				{ id: 34, img: brows34 },
+				{ id: 35, img: brows35 },
+				{ id: 36, img: brows36 },
+				{ id: 37, img: brows37 },
+				{ id: 38, img: brows38 },
+				{ id: 39, img: brows39 },
+				{ id: 40, img: brows40 },
+				{ id: 41, img: brows41 },
+				{ id: 42, img: brows42 },
 			],
 		},
 		{
@@ -195,6 +236,7 @@ const ServicePage = ({ active, setActive }) => {
 				{ id: 28, img: eyes28 },
 				{ id: 29, img: eyes29 },
 				{ id: 30, img: eyes30 },
+				{ id: 31, img: eyes31 },
 			],
 		},
 		{
