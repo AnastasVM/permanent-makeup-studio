@@ -1,5 +1,3 @@
-// import 'slick-carousel/slick/slick.css'
-// import 'slick-carousel/slick/slick-theme.css'
 import React, { useState } from 'react'
 import SliderTwo from 'react-slick'
 import './SliderDiplomas.css'
@@ -10,16 +8,9 @@ import diplome3 from './images/IMG_5831.jpeg'
 
 const SliderDiplomas = () => {
 	const settings = {
-		className: 'center',
-		centerMode: true,
-		// centerPadding: '60px',
-		// точки внизу
 		dots: false,
-		// infinite: true,
 		speed: 500,
-		//  сколько слайдев показывается сразу
 		slidesToShow: 3,
-		// сколько спри скролле прокручивается слайдов
 		slidesToScroll: 1,
 		initialSlide: 1,
 		autoplay: true,
@@ -70,24 +61,6 @@ const SliderDiplomas = () => {
 					<div className='item'>
 						<img src={diplome3} alt='' className='img' />
 					</div>
-					{/* <div className={s.item}>
-						<img src={diplome3} alt='' className={s.img} />
-					</div>
-					<div className={s.item}>
-						<img src={diplome3} alt='' className={s.img} />
-					</div>
-					<div className={s.item}>
-						<img src={diplome3} alt='' className={s.img} />
-					</div>
-					<div className={s.item}>
-						<img src={diplome3} alt='' className={s.img} />
-					</div>
-					<div className={s.item}>
-						<img src={diplome3} alt='' className={s.img} />
-					</div>
-					<div className={s.item}>
-						<img src={diplome3} alt='' className={s.img} />
-					</div> */}
 				</SliderTwo>
 			</div>
 		</>

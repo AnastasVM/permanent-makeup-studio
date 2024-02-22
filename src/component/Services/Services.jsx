@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import s from './Services.module.css'
-import lips from './images/lips 3.jpeg'
-import brows from './images/brows (2).jpeg'
-import eyelids from './images/eyes3.jpeg'
-import depilation from './images/IMG_8759.JPG'
+import lips from './images/lips.jpeg'
+import brows from './images/brows.jpeg'
+import eyelids from './images/eyes.jpeg'
+import depilation from './images/IMG_8759.jpg'
 import Card from '../Card/Card'
 
 const Services = () => {

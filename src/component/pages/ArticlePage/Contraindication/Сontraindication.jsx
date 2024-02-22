@@ -4,7 +4,6 @@ import ContentHeader from '../../../ContentHeader/ContentHeader'
 import photo from './images/img.jpeg'
 import icon from './images/icons8-стой-64.png'
 import stop from './images/icons8-высокий-приоритет-64.png'
-import { Link } from 'react-router-dom'
 
 const Contraindication = () => {
 	return (

@@ -1,14 +1,9 @@
 import React from 'react'
 import s from './Contacts.module.css'
 import Social from '../Social/Social'
+import Map from '../Map/Map'
 
 const Contacts = () => {
-	const style = {
-		width: '100%',
-		// height: '400px',
-		height: 'calc(250px + (400 - 250) * ((100vw - 320px) / (1432 - 320)))',
-	}
-
 	return (
 		<div className={s.contacts}>
 			<div className={s.content}>
@@ -28,7 +23,7 @@ const Contacts = () => {
 				</p>
 			</div>
 			<div>
-				<div id='map' style={style}></div>
+				<Map />
 				<div className={s.wrapper}>
 					<div className={s.dgWidgetWLink}>
 						<a

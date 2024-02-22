@@ -32,6 +32,7 @@ import lips27 from './images/lips/27.jpeg'
 import lips28 from './images/lips/28.jpeg'
 import lips29 from './images/lips/29.jpeg'
 import lips30 from './images/lips/30.jpeg'
+import lips31 from './images/lips/31.jpeg'
 
 import brows1 from './images/brows/1.jpeg'
 import brows2 from './images/brows/2.jpeg'
@@ -75,6 +76,7 @@ import brows39 from './images/brows/39.jpeg'
 import brows40 from './images/brows/40.jpeg'
 import brows41 from './images/brows/41.jpeg'
 import brows42 from './images/brows/42.jpeg'
+import brows43 from './images/brows/43.jpeg'
 
 import eyes1 from './images/eyes/1.jpeg'
 import eyes2 from './images/eyes/2.jpeg'
@@ -107,12 +109,14 @@ import eyes28 from './images/eyes/28.jpeg'
 import eyes29 from './images/eyes/29.jpeg'
 import eyes30 from './images/eyes/30.jpeg'
 import eyes31 from './images/eyes/31.jpeg'
+import eyes32 from './images/eyes/32.jpeg'
+import eyes33 from './images/eyes/33.jpeg'
 
-import depilation1 from './images/depilation/1.JPG'
+import depilation1 from './images/depilation/1.jpg'
 import depilation2 from './images/depilation/2.JPG'
 import depilation3 from './images/depilation/3.jpeg'
-import depilation4 from './images/depilation/4.JPG'
-import depilation5 from './images/depilation/5.JPG'
+import depilation4 from './images/depilation/4.jpg'
+import depilation5 from './images/depilation/5.jpg'
 import depilation6 from './images/depilation/6.jpeg'
 import depilation7 from './images/depilation/7.jpeg'
 
@@ -154,6 +158,7 @@ const ServicePage = ({ active, setActive }) => {
 				{ id: 28, img: lips28 },
 				{ id: 29, img: lips29 },
 				{ id: 30, img: lips30 },
+				{ id: 31, img: lips31 },
 			],
 		},
 		{
@@ -201,6 +206,7 @@ const ServicePage = ({ active, setActive }) => {
 				{ id: 40, img: brows40 },
 				{ id: 41, img: brows41 },
 				{ id: 42, img: brows42 },
+				{ id: 43, img: brows43 },
 			],
 		},
 		{
@@ -237,6 +243,8 @@ const ServicePage = ({ active, setActive }) => {
 				{ id: 29, img: eyes29 },
 				{ id: 30, img: eyes30 },
 				{ id: 31, img: eyes31 },
+				{ id: 32, img: eyes32 },
+				{ id: 33, img: eyes33 },
 			],
 		},
 		{

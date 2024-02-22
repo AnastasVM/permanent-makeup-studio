@@ -1,9 +1,4 @@
 .about {
-	/* background-image: url('./images/fon.jpg');
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: cover; */
-
 	background-color: #f2dee2bd;
 }
 
@@ -31,7 +26,7 @@
 .final {
 	font-style: italic;
 	font-weight: 600;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .title {

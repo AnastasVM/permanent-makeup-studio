@@ -3,10 +3,7 @@
 	padding-top: calc(10px + (20 - 10) * ((100vw - 320px) / (1432 - 320)));
 	padding-right: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 	padding-left: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
-
 	background-color: #f2dee2bd;
-
-	/* filter: brightness(40%); */
 }
 
 .title {

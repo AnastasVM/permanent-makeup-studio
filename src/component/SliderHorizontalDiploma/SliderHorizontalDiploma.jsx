@@ -15,13 +15,9 @@ import diploma10 from './images/IMG_5840.jpeg'
 
 const SliderHorizontalDiploma = () => {
 	const settings = {
-		// точки внизу
 		dots: false,
-		// infinite: true,
 		speed: 500,
-		//  сколько слайдев показывается сразу
 		slidesToShow: 3,
-		// сколько спри скролле прокручивается слайдов
 		slidesToScroll: 1,
 		initialSlide: 1,
 		autoplay: true,

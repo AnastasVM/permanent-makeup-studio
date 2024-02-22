@@ -10,7 +10,6 @@ const ContentHeader = ({ link, subtitle, title, children }) => {
 					<span className={s.text}>Главная</span>
 				</Link>
 				<span className={s.separator}>/</span>
-				{/* <span className={s.title}>{title}</span> */}
 				<Link to={`/${link}`} className={s.link}>
 					<span className={s.text}>{subtitle}</span>
 				</Link>

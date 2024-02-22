@@ -1,6 +1,7 @@
 .contacts {
 	display: flex;
 	flex-direction: column;
+	padding: 5px;
 }
 
 .content {
@@ -39,20 +40,19 @@
 	margin: 30px 0;
 }
 
-.dgWidgetWLink {
-	margin: 10px;
-}
-
 .link {
 	font-family: fangsong;
 	text-decoration: none;
 	color: black;
-	font-size: 1vw;
-	/* z-index: 3; */
+	font-size: 1.6vw;
 
 	&:hover {
 		text-decoration: underline;
 	}
+}
+
+.dgWidgetWLink {
+	margin: 10px;
 }
 
 @media (max-width: 1200px) {

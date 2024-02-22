@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<link rel="icon" href="%PUBLIC_URL%/icons.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="#000000" />
 		<meta
 			name="description"
-			content="Web site created using create-react-app"
+			content="Профессиональный перманентный макияж (татуаж) в Новосибирске. Доступные цены на перманентный макияж бровей, губ, век в студии Инны Якушенко. Депиляция по доступной цене. Узнать стоимость и записаться по телефону +7 913 788 07 01"
 		/>
-		<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+		<meta name="keywords" content="Перманентный макияж в Новосибирске, Профессиональный татуаж, Депиляция по доступной цене, цена стоимость брови губы глаза">
+		<meta property="og:type" content="website">
+		<!-- <meta property="og:url" content="https://"> -->
+		<meta property="og:title" content="Перманентный макияж (татуаж), коррекция татуажа бровей, губ, век Новосибирск | Депиляция Новосибирск | Инна Якушенко">
+		<meta property="og:description" content="Профессиональный перманентный макияж (татуаж) в Новосибирске. Доступные цены на перманентный макияж бровей, губ, век в студии Инны Якушенко. Депиляция по доступной цене. Узнать стоимость и записаться по телефону +7 913 788 07 01">
+		<meta property="og:image" content="%PUBLIC_URL%/photo.jpeg">
+
+		<!-- <link rel="canonical" href="https://url сайта без всяких мусорных контента и квели парамтров"/> -->
+		<link rel="apple-touch-icon" href="%PUBLIC_URL%/icons.png" />
 
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 		<link
@@ -24,26 +31,13 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
 		/>
 
-		<title>React App</title>
+		<title>
+			Перманентный макияж (татуаж), коррекция татуажа бровей, губ, век
+			Новосибирск | Депиляция Новосибирск | Инна Якушенко
+		</title>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
-		<title>API карт 2ГИС</title>
-		<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
-		<script type="text/javascript">
-			var map
-
-			DG.then(function () {
-				map = DG.map('map', {
-					center: [54.867373, 83.08784],
-					zoom: 13,
-				})
-
-				DG.marker([54.867373, 83.08784])
-					.addTo(map)
-					.bindPopup('Перманент MakeUp')
-			})
-		</script>
 	</body>
 </html>

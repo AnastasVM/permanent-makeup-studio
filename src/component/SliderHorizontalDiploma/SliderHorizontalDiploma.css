@@ -6,8 +6,8 @@
 
 .wrapper {
 	width: 100%;
-	padding-top: calc(5px + (45 - 5) * ((100vw - 320px) / (1432 - 320)));
-	padding-bottom: calc(5px + (45 - 5) * ((100vw - 320px) / (1432 - 320)));
+	padding-top: calc(15px + (45 - 15) * ((100vw - 320px) / (1432 - 320)));
+	padding-bottom: calc(15px + (45 - 15) * ((100vw - 320px) / (1432 - 320)));
 	position: relative;
 	background-color: #f2dee2bd;
 }
@@ -23,7 +23,6 @@
 .slick-prev:before {
 	font-size: 40px;
 	color: #2d2e31;
-	/* color: white; */
 }
 
 .slick-next {
@@ -38,7 +37,6 @@
 .slick-next:before {
 	font-size: 40px;
 	color: #2d2e31;
-	/* color: white; */
 }
 
 .slick-dots li button {
@@ -52,7 +50,6 @@
 	height: calc(160px + (280 - 160) * ((100vw - 320px) / (1432 - 320)));
 	max-width: 100%;
 	text-align: center;
-	/* margin: 0 auto; */
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
@@ -66,27 +63,10 @@
 	object-fit: cover;
 }
 
-.center .slick-center .item {
-	opacity: 1;
-	z-index: 50000;
-	transition: all 400ms ease-in-out;
-	pointer-events: all;
-}
-
 @media (max-width: 1200px) {
 	.itemImg {
 		background-color: #f2dee2bd;
 		border: none;
-	}
-}
-
-@media (max-width: 990px) {
-	.center .slick-center .item {
-		transform: scale(1);
-	}
-	.center .item {
-		opacity: 1;
-		pointer-events: all;
 	}
 }
 
@@ -100,10 +80,10 @@
 		color: #2d2e31;
 	}
 	.slick-next {
-		right: 15px;
+		right: 25px;
 	}
 
 	.slick-prev {
-		left: 5px;
+		left: 25px;
 	}
 }
