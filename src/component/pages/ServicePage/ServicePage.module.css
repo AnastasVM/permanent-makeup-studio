@@ -1,4 +1,5 @@
 .service {
+	background-color: #f2dee2bd;
 	@media (max-width: 1200px) {
 		margin-top: calc(55px + (95 - 55) * ((100vw - 320px) / (1432 - 320)));
 	}
@@ -10,5 +11,12 @@
 	gap: 10px;
 	justify-content: center;
 	align-items: center;
-	margin: 20px 0;
+	padding: 20px 0;
+}
+
+.title {
+	font-family: fangsong;
+	font-size: calc(26px + (56 - 26) * ((100vw - 320px) / (1432 - 320)));
+	padding-bottom: calc(10px + (25 - 10) * ((100vw - 320px) / (1432 - 320)));
+	text-align: center;
 }

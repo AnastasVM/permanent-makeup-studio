@@ -25,5 +25,5 @@
 .title {
 	color: black;
 	font-family: fangsong;
-	font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (1432 - 320)));
+	font-size: calc(20px + (22 - 20) * ((100vw - 320px) / (1432 - 320)));
 }

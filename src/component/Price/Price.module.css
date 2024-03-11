@@ -9,9 +9,7 @@
 .title {
 	font-family: fangsong;
 	font-size: calc(26px + (56 - 26) * ((100vw - 320px) / (1432 - 320)));
-	margin: calc(10px + (30 - 10) * ((100vw - 320px) / (1432 - 320)));
 	text-align: center;
-	margin: 0;
 }
 
 .list {

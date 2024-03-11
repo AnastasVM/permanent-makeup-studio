@@ -127,6 +127,7 @@ const ServicePage = ({ active, setActive }) => {
 	const [works, setWorks] = useState([
 		{
 			id: 1,
+			name: 'Перманентный макияж губ',
 			work: [
 				{ id: 1, img: lips1 },
 				{ id: 2, img: lips2 },
@@ -163,6 +164,7 @@ const ServicePage = ({ active, setActive }) => {
 		},
 		{
 			id: 2,
+			name: 'Перманентный макияж бровей',
 			work: [
 				{ id: 1, img: brows1 },
 				{ id: 2, img: brows2 },
@@ -211,6 +213,7 @@ const ServicePage = ({ active, setActive }) => {
 		},
 		{
 			id: 3,
+			name: 'Перманентный макияж век',
 			work: [
 				{ id: 1, img: eyes1 },
 				{ id: 2, img: eyes2 },
@@ -249,6 +252,7 @@ const ServicePage = ({ active, setActive }) => {
 		},
 		{
 			id: 4,
+			name: 'Депиляция',
 			work: [
 				{ id: 1, img: depilation1 },
 				{ id: 2, img: depilation2 },
@@ -267,7 +271,8 @@ const ServicePage = ({ active, setActive }) => {
 	return (
 		<div className={s.service}>
 			<div className='container'>
-				<ContentHeader title={'Мои работы'} />
+				<ContentHeader title='Мои работы' />
+				<h1 className={s.title}>{newService[0].name}</h1>
 				<div className={s.wrapper}>
 					{selectedWorks.map(e => (
 						<Work

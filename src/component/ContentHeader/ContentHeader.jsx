@@ -7,11 +7,11 @@ const ContentHeader = ({ link, subtitle, title, children }) => {
 		<div className={s.wrapper}>
 			<div className='container'>
 				<Link to='/' className={s.link}>
-					<span className={s.text}>Главная</span>
+					<span>Главная</span>
 				</Link>
 				<span className={s.separator}>/</span>
 				<Link to={`/${link}`} className={s.link}>
-					<span className={s.text}>{subtitle}</span>
+					<span>{subtitle}</span>
 				</Link>
 				<span className={s.title}>{title}</span>
 				{children}
